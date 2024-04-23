@@ -26,15 +26,15 @@ import {
 export const navLinks = [
         {
                 id: 'about',
-                title: 'About Me',
+                title: 'About',
         },
         {
                 id: 'work',
-                title: 'My Works',
+                title: 'Works',
         },
         {
                 id: 'contact',
-                title: 'Contact Me',
+                title: 'Contacts',
         },
 ];
 
@@ -162,8 +162,7 @@ const projects = [
                         },
                 ],
                 image: monkeyBlog,
-                source_code_link:
-                        'https://github.com/hha297/monkey-blog',
+                source_code_link: 'https://github.com/hha297/monkey-blog',
         },
         {
                 name: 'Moview',
@@ -188,8 +187,7 @@ const projects = [
                         },
                 ],
                 image: moview,
-                source_code_link:
-                        'https://github.com/hha297/reactjs-movie',
+                source_code_link: 'https://github.com/hha297/reactjs-movie',
         },
         {
                 name: 'Blaugrana Furniture',
@@ -206,8 +204,7 @@ const projects = [
                         },
                 ],
                 image: blaugranaFurniture,
-                source_code_link:
-                        'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
+                source_code_link: 'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
         },
         {
                 name: 'Postman Express',
@@ -232,8 +229,7 @@ const projects = [
                         },
                 ],
                 image: postmanExpress,
-                source_code_link:
-                        'https://github.com/QuirkoTech/PostmanExpress',
+                source_code_link: 'https://github.com/QuirkoTech/PostmanExpress',
         },
 ];
 
