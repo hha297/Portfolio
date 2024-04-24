@@ -6,15 +6,20 @@ import { HemisphereLight, PointLight } from 'three';
 const Computers = () => {
         const computer = useGLTF('./desktop_pc/scene.gltf');
         return (
-                <group>
+                <mesh>
                         <hemisphereLight intensity={Math.PI} groundColor="black" />
                         <pointLight intensity={Math.PI} />
                         <primitive object={computer.scene} scale={0.74} position={[0, -2.5, -1.5]} />
-                </group>
+                </mesh>
         );
 };
 
 const ComputersCanvas = () => {
+        const [loaded, setLoaded] = useState(false);
+
+        useEffect(() => {
+                setLoaded(true); //Mark the GLTF File has been loaded
+        }, []);
         return (
                 <Canvas
                         frameloop="demand"
@@ -28,10 +33,10 @@ const ComputersCanvas = () => {
                                         maxPolarAngle={Math.PI / 2}
                                         minPolarAngle={Math.PI / 2}
                                 />
-                                <Computers />
                         </Suspense>
 
                         <Preload all />
+                        {loaded && <Computers />}
                 </Canvas>
         );
 };
