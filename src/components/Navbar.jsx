@@ -7,7 +7,7 @@ const Navbar = () => {
         const [active, setActive] = useState('');
         const [toggle, setToggle] = useState(false);
         return (
-                <nav className={`${styles.paddingX} w-full flex items-center fixed top-0 z-20 bg-tertiary`}>
+                <nav className={`${styles.paddingX} w-full flex items-center fixed top-0 z-20 bg-primary`}>
                         <div className="w-full flex justify-between mx-24 items-center">
                                 <Link
                                         to="/"
@@ -19,13 +19,13 @@ const Navbar = () => {
                                 >
                                         <img src={logo} alt="logo" className="w-24 h-24 object-contain" />
                                 </Link>
-                                <ul className="list-none hidden sm:flex flex-row gap-12">
+                                <ul className="list-none hidden sm:flex flex-row gap-16">
                                         {navLinks.map((link) => (
                                                 <li
                                                         key={link.id}
                                                         className={`${
                                                                 active === link.title ? 'text-blaugrana' : 'text-white'
-                                                        } hover:text-blaugrana text-xl font-medium cursor-pointer`}
+                                                        } hover:text-blaugrana text-2xl font-medium cursor-pointer`}
                                                         onClick={() => {
                                                                 setActive(link.title);
                                                         }}
