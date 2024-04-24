@@ -27,18 +27,19 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
         return (
                 <>
-                        <motion.div variants={textVariant()} className="mt-16">
+                        <motion.div variants={textVariant()} className="mt-32">
                                 <p className={styles.sectionSubText}>Introduction</p>
                                 <h2 className={styles.sectionHeadText}>Overview.</h2>
                         </motion.div>
                         <motion.p
                                 variants={fadeIn('', '', 0.1, 1)}
-                                className="mt-4 text-secondary text-lg max-w-3xl leading-8"
+                                className="mt-4 text-secondary text-lg max-w-7xl leading-8"
                         >
-                                I'm a skilled software developer with experience in Javascript and TypeScript, and get
-                                used to in frameworks like React, Node.js, Three.js. I'm a quick learner and collaborate
-                                closely with clients to create efficient, scalable, and user-friendly solutions that
-                                solve problems. Let's work together to bring your ideas to real life.
+                                I'm a skilled software developer with experience in Javascript and TypeScript and also
+                                getting acquainted with Kotlin, and get used to in frameworks like React, Node.js,
+                                Three.js. I'm a quick learner and willing to collaborate closely with clients to create
+                                efficient, scalable, and user-friendly solutions that solve problems. <br></br>
+                                <span className="font-bold">Let's work together to bring your ideas to real life.</span>
                         </motion.p>
 
                         <div className="mt-20 flex flex-wrap gap-10">

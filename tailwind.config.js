@@ -9,6 +9,7 @@ export default {
                                 secondary: '#aaa6c3',
                                 tertiary: '#151030',
                                 blaugrana: '#A50044',
+                                blueb: '#004D98',
                                 'black-100': '#100d25',
                                 'black-200': '#090325',
                                 'white-100': '#f3f3f3',
