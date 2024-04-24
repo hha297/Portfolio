@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import Loader from '../Loader';
 import { HemisphereLight, PointLight } from 'three';
-const Computers = () => {
+const Computers = ({ isMobile }) => {
         const computer = useGLTF('./desktop_pc/scene.gltf');
         return (
                 <mesh>
@@ -19,8 +19,8 @@ const Computers = () => {
                         />
                         <primitive
                                 object={computer.scene}
-                                scale={0.74}
-                                position={[0, -3, -1.5]}
+                                scale={isMobile ? 0.5 : 0.74}
+                                position={isMobile ? [0, -2, -1.5] : [0, -3.5, -1.5]}
                                 rotation={[0, -0.2, -0.1]}
                         />
                 </mesh>
@@ -28,6 +28,23 @@ const Computers = () => {
 };
 
 const ComputersCanvas = () => {
+        const [isMobile, setIsMobile] = useState(false);
+
+        useEffect(() => {
+                const mediaQuery = window.matchMedia('(max-width: 680px)');
+
+                setIsMobile(mediaQuery.matches);
+
+                const handleMediaQueryChange = (event) => {
+                        setIsMobile(event.matches);
+                };
+
+                mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+                return () => {
+                        mediaQuery.addEventListener('change', handleMediaQueryChange);
+                };
+        }, []);
         return (
                 <Canvas
                         frameloop="demand"
@@ -41,10 +58,11 @@ const ComputersCanvas = () => {
                                         maxPolarAngle={Math.PI / 2}
                                         minPolarAngle={Math.PI / 2}
                                 />
-                                <Computers />
+                                <Computers isMobile={isMobile} />
                         </Suspense>
                         <Preload all />
                 </Canvas>
         );
 };
+
 export default ComputersCanvas;

@@ -18,6 +18,7 @@ export default {
                         },
                         screens: {
                                 xs: '450px',
+                                'sm-max': { max: '696px' },
                         },
                         backgroundImage: {
                                 'hero-pattern': "url('/src/assets/herobg.png')",

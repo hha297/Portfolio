@@ -21,27 +21,32 @@ import {
         blaugranaFurniture,
         postmanExpress,
         threejs,
+        backend,
 } from '../assets';
 
 export const navLinks = [
         {
-                id: 'about',
+                id: '#about',
                 title: 'About',
         },
         {
-                id: 'work',
+                id: '#work',
                 title: 'Works',
         },
         {
-                id: 'contact',
+                id: '#contact',
                 title: 'Contacts',
         },
 ];
 
 const services = [
         {
-                title: 'Web Developer',
+                title: 'Front-end Developer',
                 icon: web,
+        },
+        {
+                title: 'Back-end Developer',
+                icon: backend,
         },
         {
                 title: 'Mobile Developer',
