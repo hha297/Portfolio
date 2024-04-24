@@ -8,16 +8,16 @@ const Navbar = () => {
         const [toggle, setToggle] = useState(false);
         return (
                 <nav className={`${styles.paddingX} w-full flex items-center fixed top-0 z-20 bg-tertiary`}>
-                        <div className="w-full flex justify-between items-center mx-auto">
+                        <div className="w-full flex justify-between mx-24 items-center">
                                 <Link
                                         to="/"
-                                        className="flex items-center gap-1"
+                                        className="flex items-center gap-1 "
                                         onClick={() => {
                                                 setActive('');
                                                 window.scrollTo(0, 0);
                                         }}
                                 >
-                                        <img src={logo} alt="logo" className="w-32 h-32 object-contain" />
+                                        <img src={logo} alt="logo" className="w-24 h-24 object-contain" />
                                 </Link>
                                 <ul className="list-none hidden sm:flex flex-row gap-12">
                                         {navLinks.map((link) => (
