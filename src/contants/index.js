@@ -119,22 +119,22 @@ const technologies = [
 
 const experiences = [
         {
-                title: 'UI UX Designer',
-                company_name: 'Eternity Design',
+                title: 'Internship - UI/UX Designer',
+                companyName: 'Eternity Design',
                 icon: eternityDesign,
                 iconBg: '#383E56',
-                date: 'November 2021 -  March 2022',
+                date: 'May 2021 -  September 2021',
                 points: [
                         'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
                         'Implementing responsive design and ensuring cross-browser compatibility.',
                 ],
         },
         {
-                title: 'Web Developer',
-                company_name: 'Eternity Design',
+                title: 'Internship - Web Developer',
+                companyName: 'Eternity Design',
                 icon: eternityDesign,
                 iconBg: '#E6DEDD',
-                date: 'April 2022 - July 2022',
+                date: 'March 2022 - July 2022',
                 points: [
                         'Developing and maintaining web applications using React.js and other related technologies.',
                         'Collaborated with senior designers to conduct user research, including surveys and interviews, to gather insights into user behaviors and preferences.',
