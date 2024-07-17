@@ -3,6 +3,7 @@ import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
 import web from './web.png';
+import website from './website.png';
 import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
@@ -24,6 +25,8 @@ import firebase from './tech/firebase.png';
 
 import eternityDesign from './company/eternity_design.png';
 
+import snapshot from './snapshot.png';
+import twitter from './twitter.png';
 import monkeyBlog from './monkeyblog.png';
 import moview from './moview.png';
 import blaugranaFurniture from './blaugranafurniture.png';
@@ -35,6 +38,7 @@ export {
         creator,
         mobile,
         web,
+        website,
         github,
         menu,
         close,
@@ -53,6 +57,8 @@ export {
         typescript,
         threejs,
         eternityDesign,
+        snapshot,
+        twitter,
         monkeyBlog,
         moview,
         blaugranaFurniture,

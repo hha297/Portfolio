@@ -22,6 +22,8 @@ import {
         postmanExpress,
         threejs,
         backend,
+        snapshot,
+        twitter,
 } from '../assets';
 
 export const navLinks = [
@@ -117,33 +119,64 @@ const technologies = [
         },
 ];
 
-const experiences = [
-        {
-                title: 'Internship - UI/UX Designer',
-                companyName: 'Eternity Design',
-                icon: eternityDesign,
-                iconBg: '#383E56',
-                date: 'May 2021 -  September 2021',
-                points: [
-                        'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-                        'Implementing responsive design and ensuring cross-browser compatibility.',
-                ],
-        },
-        {
-                title: 'Internship - Web Developer',
-                companyName: 'Eternity Design',
-                icon: eternityDesign,
-                iconBg: '#E6DEDD',
-                date: 'March 2022 - July 2022',
-                points: [
-                        'Developing and maintaining web applications using React.js and other related technologies.',
-                        'Collaborated with senior designers to conduct user research, including surveys and interviews, to gather insights into user behaviors and preferences.',
-                        'Participating in code reviews and providing constructive feedback to other developers.',
-                ],
-        },
-];
+const experiences = [];
 
 const projects = [
+        {
+                name: 'Snapshot',
+                description:
+                        'A modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance.',
+                tags: [
+                        {
+                                name: 'react',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'typescript',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'tailwind',
+                                color: 'pink-text-gradient',
+                        },
+                        {
+                                name: 'appwrite',
+                                color: 'blue-text-gradient',
+                        },
+                ],
+                image: snapshot,
+                source_code_link: 'https://github.com/hha297/Snapshot',
+                website_link: 'https://snapshot-zeta-five.vercel.app',
+        },
+        {
+                name: 'Twitter',
+                description: 'MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io',
+                tags: [
+                        {
+                                name: 'react',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'mongodb',
+                                color: 'green-text-gradient',
+                        },
+                        {
+                                name: 'tailwind',
+                                color: 'pink-text-gradient',
+                        },
+                        {
+                                name: 'nodejs',
+                                color: 'green-text-gradient',
+                        },
+                        {
+                                name: 'expressjs',
+                                color: 'green-text-gradient',
+                        },
+                ],
+                image: twitter,
+                source_code_link: 'https://github.com/hha297/twitter-clone',
+                website_link: 'https://twitter-clone-k8m6.onrender.com',
+        },
         {
                 name: 'Monkey Blog',
                 description:
@@ -168,6 +201,7 @@ const projects = [
                 ],
                 image: monkeyBlog,
                 source_code_link: 'https://github.com/hha297/monkey-blog',
+                website_link: 'https://monkey-blog-nine.vercel.app/',
         },
         {
                 name: 'Moview',
@@ -193,6 +227,7 @@ const projects = [
                 ],
                 image: moview,
                 source_code_link: 'https://github.com/hha297/reactjs-movie',
+                website_link: 'https://reactjs-movie-hha2907.vercel.app/',
         },
         {
                 name: 'Blaugrana Furniture',
