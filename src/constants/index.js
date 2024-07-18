@@ -15,8 +15,6 @@ import {
         figma,
         firebase,
         kotlin,
-        eternityDesign,
-        monkeyBlog,
         moview,
         blaugranaFurniture,
         postmanExpress,
@@ -177,32 +175,7 @@ const projects = [
                 source_code_link: 'https://github.com/hha297/twitter-clone',
                 website_link: 'https://twitter-clone-k8m6.onrender.com',
         },
-        {
-                name: 'Monkey Blog',
-                description:
-                        'Web-based platform that allows users facilitate seamless content creation and sharing, it empowers individuals to express their thoughts, ideas, and creativity effortlessly ',
-                tags: [
-                        {
-                                name: 'react',
-                                color: 'blue-text-gradient',
-                        },
-                        {
-                                name: 'tailwind',
-                                color: 'pink-text-gradient',
-                        },
-                        {
-                                name: 'firebase',
-                                color: 'blue-text-gradient',
-                        },
-                        {
-                                name: 'scss',
-                                color: 'pink-text-gradient',
-                        },
-                ],
-                image: monkeyBlog,
-                source_code_link: 'https://github.com/hha297/monkey-blog',
-                website_link: 'https://monkey-blog-nine.vercel.app/',
-        },
+
         {
                 name: 'Moview',
                 description:

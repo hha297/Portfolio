@@ -23,11 +23,9 @@ import threejs from './tech/threejs.svg';
 import kotlin from './tech/kotlin.png';
 import firebase from './tech/firebase.png';
 
-import eternityDesign from './company/eternity_design.png';
-
 import snapshot from './snapshot.png';
 import twitter from './twitter.png';
-import monkeyBlog from './monkeyblog.png';
+
 import moview from './moview.png';
 import blaugranaFurniture from './blaugranafurniture.png';
 import postmanExpress from './postmanexpress.png';
@@ -56,10 +54,8 @@ export {
         tailwind,
         typescript,
         threejs,
-        eternityDesign,
         snapshot,
         twitter,
-        monkeyBlog,
         moview,
         blaugranaFurniture,
         postmanExpress,

@@ -13,7 +13,7 @@ const ServiceCard = ({ index, title, icon }) => {
                                 className="w-full green-pink-gradient p-1 rounded-3xl shadow-card"
                         >
                                 <div
-                                        options={{ max: 45, scale: 1, speed: 4 }}
+                                        options={{ max: 45, scale: 1, speed: 450 }}
                                         className="bg-tertiary rounded-3xl py-5 px-12 min-h-72 flex justify-evenly items-center flex-col"
                                 >
                                         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
         return (
                 <>
-                        <motion.div variants={textVariant()} className="mt-32">
+                        <motion.div variants={textVariant()} className="xs:mt-32">
                                 <p className={styles.sectionSubText}>Introduction</p>
                                 <h2 className={styles.sectionHeadText}>Overview.</h2>
                         </motion.div>
