@@ -26,16 +26,16 @@ import {
 
 export const navLinks = [
         {
-                id: '#about',
+                id: 'about',
                 title: 'About',
         },
         {
-                id: '#work',
-                title: 'Works',
+                id: 'work',
+                title: 'Work',
         },
         {
-                id: '#contact',
-                title: 'Contacts',
+                id: 'contact',
+                title: 'Contact',
         },
 ];
 
@@ -148,7 +148,8 @@ const projects = [
         },
         {
                 name: 'Twitter',
-                description: 'MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io',
+                description:
+                        'MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io',
                 tags: [
                         {
                                 name: 'react',
@@ -217,7 +218,8 @@ const projects = [
                         },
                 ],
                 image: blaugranaFurniture,
-                source_code_link: 'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
+                source_code_link:
+                        'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
         },
         {
                 name: 'Postman Express',
@@ -242,7 +244,8 @@ const projects = [
                         },
                 ],
                 image: postmanExpress,
-                source_code_link: 'https://github.com/QuirkoTech/PostmanExpress',
+                source_code_link:
+                        'https://github.com/QuirkoTech/PostmanExpress',
         },
 ];
 
