@@ -24,6 +24,9 @@ export default {
                         backgroundImage: {
                                 'hero-pattern': "url('/src/assets/herobg.png')",
                         },
+                        width: {
+                                '8xl': '96rem',
+                        },
                 },
         },
         plugins: [],

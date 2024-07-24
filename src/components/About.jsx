@@ -33,7 +33,7 @@ const About = () => {
                         </motion.div>
                         <motion.p
                                 variants={fadeIn('', '', 0.1, 1)}
-                                className="mt-4 text-secondary text-lg max-w-7xl leading-8"
+                                className="mt-4 text-secondary text-lg max-w7xl leading-8"
                         >
                                 I'm a skilled software developer with experience in Javascript and TypeScript and also
                                 getting acquainted with Kotlin, and get used to in frameworks like React, Node.js,
