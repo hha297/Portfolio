@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { styles } from '../styles.js';
-import { EarthCanvas } from './canvas/';
+import { EarthCanvas, StarsCanvas } from './canvas/';
 
 import { slideIn } from '../utils/motion.js';
 import { useRef, useState } from 'react';
@@ -29,7 +29,7 @@ const Contact = () => {
                                 <h3 className={styles.sectionHeadText}>Contact.</h3>
                                 <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
                                         <label className="flex flex-col">
-                                                <span className="text-white font-medium mb-4">Your Name</span>
+                                                <span className="text-white font-medium mb-4">Name</span>
                                                 <input
                                                         type="text"
                                                         name="name"
@@ -40,7 +40,7 @@ const Contact = () => {
                                                 />
                                         </label>
                                         <label className="flex flex-col">
-                                                <span className="text-white font-medium mb-4">Your Email</span>
+                                                <span className="text-white font-medium mb-4">Email</span>
                                                 <input
                                                         type="email"
                                                         name="email"
@@ -79,5 +79,4 @@ const Contact = () => {
         );
 };
 
-// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(Contact, 'contact');

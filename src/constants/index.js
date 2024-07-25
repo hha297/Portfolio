@@ -7,7 +7,6 @@ import {
         html,
         css,
         reactjs,
-        redux,
         tailwind,
         nodejs,
         mongodb,
@@ -18,7 +17,6 @@ import {
         moview,
         blaugranaFurniture,
         postmanExpress,
-        threejs,
         backend,
         snapshot,
         twitter,
@@ -80,10 +78,6 @@ const technologies = [
                 icon: reactjs,
         },
         {
-                name: 'Redux Toolkit',
-                icon: redux,
-        },
-        {
                 name: 'Tailwind CSS',
                 icon: tailwind,
         },
@@ -94,10 +88,6 @@ const technologies = [
         {
                 name: 'MongoDB',
                 icon: mongodb,
-        },
-        {
-                name: 'Three JS',
-                icon: threejs,
         },
         {
                 name: 'Git',
@@ -148,8 +138,7 @@ const projects = [
         },
         {
                 name: 'Twitter',
-                description:
-                        'MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io',
+                description: 'MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io',
                 tags: [
                         {
                                 name: 'react',
@@ -218,8 +207,7 @@ const projects = [
                         },
                 ],
                 image: blaugranaFurniture,
-                source_code_link:
-                        'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
+                source_code_link: 'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
         },
         {
                 name: 'Postman Express',
@@ -244,8 +232,7 @@ const projects = [
                         },
                 ],
                 image: postmanExpress,
-                source_code_link:
-                        'https://github.com/QuirkoTech/PostmanExpress',
+                source_code_link: 'https://github.com/QuirkoTech/PostmanExpress',
         },
 ];
 
