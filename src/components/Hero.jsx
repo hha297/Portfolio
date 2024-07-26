@@ -24,6 +24,17 @@ const Hero = () => {
                                                 <span className="font-bold text-2xl ml-1">Oulu, Finland.</span>
                                         </p>
                                 </div>
+                                <div className="absolute top-60 left-28 z-10">
+                                        <a
+                                                href="#contact"
+                                                className=" w-36 h-12 bg-[#915eff] border-2 border-[#915eff] py-3 px-4 text-white text-xl rounded-xl z-10 hover:bg-transparent hover:border-2 hover:border-[#915eff] cursor-pointer "
+                                        >
+                                                Contact Me
+                                        </a>
+                                        <button className="ml-4 w-36 h-12 bg-transparent border-2 border-[#915eff] text-white text-xl rounded-xl z-10 hover:bg-[#915eff] hover:border-[#915eff]">
+                                                Download CV
+                                        </button>
+                                </div>
                         </div>
 
                         <ComputersCanvas />
