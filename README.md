@@ -1,8 +1,7 @@
 <div align="center">
   <br />
     <a href="[https://youtu.be/0fYi8SGA20k?feature=shared](https://portfolio-hha2907s-projects.vercel.app/)" target="_blank">
-      <img src="![image](https://github.com/user-attachments/assets/1e4be777-3c9c-4ed6-b385-f8ad0af6d0f4)
-" alt="Project Banner">
+      <img src="![image](https://github.com/user-attachments/assets/c436728f-b672-4220-ab27-2158ec963ed3)" alt="Project Banner">
     </a>
   <br />
 
