@@ -16,7 +16,7 @@ import {
         kotlin,
         moview,
         blaugranaFurniture,
-        postmanExpress,
+        slack,
         backend,
         snapshot,
         twitter,
@@ -111,12 +111,46 @@ const experiences = [];
 
 const projects = [
         {
+                name: 'Slack Clone',
+                description:
+                        'An end-to-end fullstack and real-time slack clone, all with workspaces, channels, 1:1 conversations, threads, reactions, editing and deleting messages as well as member roles.',
+                tags: [
+                        {
+                                name: 'react',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'nextjs',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'typescript',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'tailwind',
+                                color: 'pink-text-gradient',
+                        },
+                        {
+                                name: 'convex',
+                                color: 'green-text-gradient',
+                        },
+                ],
+                image: slack,
+                source_code_link: 'https://github.com/hha297/Slack',
+                website_link: 'https://slack-hha2907s-projects.vercel.app/auth',
+        },
+        {
                 name: 'Snapshot',
                 description:
                         'A modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance.',
                 tags: [
                         {
                                 name: 'react',
+                                color: 'blue-text-gradient',
+                        },
+                        {
+                                name: 'nextjs',
                                 color: 'blue-text-gradient',
                         },
                         {
@@ -208,31 +242,6 @@ const projects = [
                 ],
                 image: blaugranaFurniture,
                 source_code_link: 'https://github.com/Die-SonnenKinder/Blaugrana_Furniture',
-        },
-        {
-                name: 'Postman Express',
-                description:
-                        'PostmanExpress is composed of three interconnected applications, designed to replicate the functionality of an automated parcel delivery locker system, much like the renowned services offered by Posti or Matkahuolto.',
-                tags: [
-                        {
-                                name: 'react',
-                                color: 'blue-text-gradient',
-                        },
-                        {
-                                name: 'restapi',
-                                color: 'green-text-gradient',
-                        },
-                        {
-                                name: 'tailwind',
-                                color: 'pink-text-gradient',
-                        },
-                        {
-                                name: 'scss',
-                                color: 'pink-text-gradient',
-                        },
-                ],
-                image: postmanExpress,
-                source_code_link: 'https://github.com/QuirkoTech/PostmanExpress',
         },
 ];
 
