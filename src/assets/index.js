@@ -29,6 +29,7 @@ import twitter from './twitter.png';
 import moview from './moview.png';
 import blaugranaFurniture from './blaugranafurniture.png';
 import postmanExpress from './postmanexpress.png';
+import slack from './slack-clone.png';
 
 export {
         logo,
@@ -59,4 +60,5 @@ export {
         moview,
         blaugranaFurniture,
         postmanExpress,
+        slack,
 };
