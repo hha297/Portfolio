@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Vipps">
+  <rect width="24" height="24" rx="5.5" fill="#FF5B24"/>
+  <circle cx="15.35" cy="8.15" r="1.55" fill="#FFFFFF"/>
+  <path
+    d="M6.6 11.2c.35 3.55 2.85 6.05 5.4 6.05s5.05-2.5 5.4-6.05"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="2.35"
+    stroke-linecap="round"
+  />
+</svg>
