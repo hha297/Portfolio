@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Ha Dang — Software Developer" />
+  <img src="./public/logos/logo.png" width="10%" alt="Ha Dang — Software Developer" />
 </p>
 
 <h1 align="center">Ha Dang</h1>
@@ -49,13 +49,13 @@
 
 <p align="center">
   <a href="https://www.notoria.fi">
-    <img src="./assets/banner.png" width="100%" alt="Notoria — Your materials. Your language journey." />
+    <img src="./public/projects/notoria/banner.jpg" width="100%" alt="Notoria — Your materials. Your language journey." />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.notoria.fi">
-    <img src="./assets/notoria-logo.png" width="64" alt="Notoria logo" />
+    <img src="./public/logos/notoria.png" width="64" alt="Notoria logo" />
   </a>
 </p>
 
